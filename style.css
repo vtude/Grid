@@ -1,0 +1,125 @@
+*{ margin: 0;
+    padding: 0;
+
+    
+}
+
+.grid-principal{
+    display: grid;
+    grid-template-areas: 
+    'menu menu'
+    'barra main'
+    'pie pie';
+    height: 97vh;
+    grid-template-columns: 1fr 9fr;
+    grid-template-rows: 1fr 8fr 2em ;
+    background-color: rgb(219, 219, 219);
+  
+}
+
+
+.menu{
+    grid-area: menu ;
+    background-color: rgb(119, 119, 167);
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    height: 2em;
+
+   
+
+}
+
+.barra-izquierda{
+    grid-area: barra;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(219, 219, 219);
+   
+
+}
+
+.main{
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows:auto auto ;
+    background-color: rgb(219, 219, 219);
+  
+
+}
+
+.pie{
+
+grid-area: pie;
+font-family: 'Roboto', sans-serif;
+text-align: center;
+
+ 
+
+}
+
+
+.producto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 20em;
+    margin-left: 5em;
+    margin: 1em;
+    
+}
+
+button{
+width: 20em;
+padding: 0.8em;
+background-color: rgb(119, 119, 167);
+font-family: 'Roboto', sans-serif;
+font-size: 1em;
+
+
+}
+ul{
+    list-style: none;
+}
+
+.img-mueble{
+    width: 20em;
+    background-color: white;
+}
+
+
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    font-weight: 1000;
+    margin: 1em;
+
+}
+
+p{  
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+
+
+.categorias{
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    font-weight: 1000;
+    margin-bottom: 1em;
+    
+
+}
+
+.opciones{
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+
+
+}
